@@ -1,0 +1,87 @@
+purple color - Tag Name
+Red Color - Attribute
+Blue Color - Value
+Black COlor -Text
+
+
+1-  //tagname[@attribute='value']
+
+//input[@title='Search']
+
+2 - //tagname[text()='Black Color Value']
+
+//a[text()='Gmail']
+
+//Practice--Amazon
+//input[@id = 'twotabsearchtextbox']
+//input[@id = 'nav-search-submit-button']
+//h2[text()='Sign in for the best experience']
+//h2[text()='Special gifts for mom']
+//div[@id='gw-layout']
+//a[@id='ybar-logo']
+//a[@href='https://www.yahoo.com/']-got two results
+
+(//a[@href='https://www.yahoo.com/'])[2] - Correct solution
+
+From yahho.com mail
+//p[text()='Sorry, we don't recognize this email.']--didn't get the result
+//p[text()='Sorry, we don't recognize this email.']
+
+
+
+//div[text()='Or, continue with']--didn't get the result
+//div[@id = 'reg-error-firstName']
+//div[text() = 'This is required.']--didn't work
+//select[@id = 'usernamereg-month']
+
+Syntax : $x(“//tagName[starts-with(@attributeName,’attributeValue’)]”)--Ask this Question
+Syntax : $x(“//node/attribute::attributeName”)---Ask this also
+
+Example : $x(“//li[@id=’menu-item-9′]/a/attribute::href”)
+
+Syntax : $x(“//node/following::*”)
+
+Example : $x(“//*[@id=’menu-item-8′]/following::*”)
+-------------------------------------------------------
+
+
+3 - //tagname[contains(text(),'Unique text value')]
+
+//p[contains(text(),'recognize this email')]
+
+Sorry, we don't recognize this email.
+
+CSS- id =- #id Name
+tagname[attribute='value']
+
+
+//div[contains(@aria-label,'21 ') and @aria-disabled='false']
+                        
+  //div[contains(text(),'Enter your name')]--Amazon sign in Alert 
+  div[class='enter your name']--CSS didn't work
+div#auth-customerName-missing-alert -- css 
+
+  input[id='ap_customer_name']
+  div[id='legalTextRow']
+  //p[text()='Why MakeMyTrip?']
+-------------------------------------------------
+**If you want text nodes (as returned by text()), you can do this. You need to search at all depths:**
+( //p[@class="font12 lineHeight16"]//text())[1]
+---------------------------------------------------------------------------
+
+Assignment - http://demo.guru99.com/test/delete_customer.php 
+
+https://www.flipkart.com/ - Mouse Hovering
+
+Read some concept of for loop - if you can - else i will tell you
+
+
+basic concept - java script 
+basic concept - protractor - discussicing - repeater ng click
+Type scripts - all opps concept and interfaces - variable  local , let , const -- -after 2 week
+
+Jenkins - git  - cucumber - publish reports  - framework - POM - Ass
+
+jesmins - 
+
+browser.actions().draganddrop(src,target).perform()

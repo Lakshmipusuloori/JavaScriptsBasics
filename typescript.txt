@@ -1,0 +1,202 @@
+Typescript will work on Class and Object
+
+
+Class A{
+    public void Test()
+    {
+        sysout("gdjhfjkd")
+    }
+}
+
+//classname ref = new Constructor();
+
+A a = new A();
+a.Test()
+
+
+what is class - ?
+
+class is a combination of Methods , Object and Constructor
+
+if any thing is missing we cant run the pgm or execute the pgm
+
+what is object
+
+object is a replica of class or blue print of the class
+
+
+abstract class abstract{
+    abstract void test(); //unimplemented
+}
+
+class abd extends abstract{
+    void test()
+    {
+        sysout("testionhg)
+    }
+}
+
+abd a =new abd();
+a.test
+
+create 4 class - each class contains 3 methods - 
+all method should call and run with the creation of object - test
+
+
+
+Inheritance :- Aquaring the properties from other class that is called a Inheritance
+we can achieve with the help of extends keyword in typescript and java as well
+
+
+what is multilevel Inheritance
+Step by step Inheritance or we can say generation by genartaion 
+transformation is called Multilevel
+
+what is multiple Inheritance
+
+one class want to inherit more than one class at a time - It is 
+called multiple Inheritance
+
+can we achieve multiple inheritance in Typescript
+
+No, we can achieve Multiple Inheritance at class level
+ but we can achieve at Interface level- it will cover at interface level
+
+what is the major difference in Multiple and Multilevel- 
+
+Consider a scenario where RBIBank is a class that provides a method to get the rate of interest.
+ However, the rate of interest may differ according to banks
+
+ SBI - 8
+ HDFC - 9 
+ ICICI- 10
+
+ RBIBank - roi() --- Inheritance 
+
+ -- currency Pgm - along with country 
+
+ India - Inr
+America - dollar
+europe - euro --- inheritance
+
+
+One to Many 
+Many to one relation in inheriatnce
+
+
+function Overloading
+
+Function Over riding
+
+Custtructor - Run polymorphism
+
+Interface 
+
+Data type , for loop and multi function in typescriptiom
+
+Will start the typre script framework with protractor
+
+
+
+Functional Overloading 
+
+- Function name should be same 
+- the number of parameter is same and type should be different
+
+int a int b  string and string
+
+public void Test(int a , String b)
+{
+
+}
+
+public void Test(int a)
+{
+
+}
+
+function add( a , b)
+{
+
+}
+function add (a, b ,c )
+{
+
+}
+
+add("java" , "script")
+
+WebDriver driver = new ChromeDriver()
+
+
+Same Methods , same signature different implementation is called a method Over riding
+and we can achieve with the help of Inheritance - extends
+all condition should be tru - if any one missing we cant achieve Method Over riding
+
+PolyMorphism - Same object behaving different different instace through out 
+the execution of the pgm - that is called a polymorphism
+
+run time polymorphism - Method Over riding , Upcasting - if any one is missing you cant achieve
+Compile Time Polymorphism - Method Over loading
+
+
+Type Script
+
+PolyMorphism can we achieve with the help of Method Over riding - that it
+
+Constructor :- 
+
+Constructor name and class name should be same in java 
+
+in typescript is almost same - but if we need to create a constructor -
+we have use Constructor keyword in Type script
+
+if user is not declaring any constructor - who will create - 
+Compiler will create blank constructor/default constructor in java and Typescript as well
+
+if user declaring any constructor - Compiler never create default or blank Constructor
+
+in java we can create any number of constructor with different parameter
+but in typescript - we cant create more than one constructor - it is not possible
+
+gv = Local variable
+
+if user not use this keyword - priority should be local only
+
+
+
+Just work on super keyword in Type script - 
+
+
+This will work for variable --- current class
+this will work for method
+
+Super will work for variable -- parent class - and inheritance is compulsory
+super will work for method
+
+
+super constructor and this constructor  should be first statement 
+
+both you cant use at a time 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
